@@ -1,0 +1,65 @@
+[debug] [2021-05-01T05:57:13.273Z] ----------------------------------------------------------------------
+[debug] [2021-05-01T05:57:13.275Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sagar Mude\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-01T05:57:13.275Z] CLI Version:   9.10.0
+[debug] [2021-05-01T05:57:13.275Z] Platform:      win32
+[debug] [2021-05-01T05:57:13.275Z] Node Version:  v14.16.0
+[debug] [2021-05-01T05:57:13.276Z] Time:          Sat May 01 2021 11:27:13 GMT+0530 (India Standard Time)
+[debug] [2021-05-01T05:57:13.276Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-01T05:57:13.282Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-01T05:57:13.282Z] > authorizing via signed-in user (projectosc3@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Project\Youtube-Frontend-Clone-OSC-Project
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using clone-f4d60. 
+[debug] [2021-05-01T05:57:18.427Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-f4d60 [none]
+[debug] [2021-05-01T05:57:18.998Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-f4d60 200
+[debug] [2021-05-01T05:57:18.998Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-f4d60 {"projectId":"clone-f4d60","projectNumber":"890593092268","displayName":"Youtube Clone","name":"projects/clone-f4d60","resources":{"hostingSite":"clone-f4d60"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote build/404.html 
+[debug] [2021-05-01T05:57:28.230Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-05-01T05:57:28.587Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-05-01T05:57:28.587Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.4.3","browserURL":"https://www.gstatic.com/firebasejs/8.4.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.4.3/firebase.tgz"},"live":{"version":"8.4","browserURL":"https://www.gstatic.com/firebasejs/live/8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.4/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.4.3/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.4.3/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.4.3/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.4.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.4.3/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at E:\Project\Youtube-Frontend-Clone-OSC-Project 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=134107138&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-05-01T05:57:30.653Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"63cee4a2e09097f10ef8","redirect_uri":"http://localhost:9005","state":"134107138"}
+[debug] [2021-05-01T05:57:31.113Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sat, 01 May 2021 05:57:31 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"c7cfc719ddb6af123ff5f328e37b5fff\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"E337:464A:DF3305:F2C8CA:608CEDCB"}
+[debug] [2021-05-01T05:57:31.116Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-05-01T05:57:31.643Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-05-01T05:57:31.643Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"sagarmude7","id":66897097,"node_id":"MDQ6VXNlcjY2ODk3MDk3","avatar_url":"https://avatars.githubusercontent.com/u/66897097?v=4","gravatar_id":"","url":"https://api.github.com/users/sagarmude7","html_url":"https://github.com/sagarmude7","followers_url":"https://api.github.com/users/sagarmude7/followers","following_url":"https://api.github.com/users/sagarmude7/following{/other_user}","gists_url":"https://api.github.com/users/sagarmude7/gists{/gist_id}","starred_url":"https://api.github.com/users/sagarmude7/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sagarmude7/subscriptions","organizations_url":"https://api.github.com/users/sagarmude7/orgs","repos_url":"https://api.github.com/users/sagarmude7/repos","events_url":"https://api.github.com/users/sagarmude7/events{/privacy}","received_events_url":"https://api.github.com/users/sagarmude7/received_events","type":"User","site_admin":false,"name":"Sagar Mude","company":null,"blog":"","location":"Mumbai","email":null,"hireable":null,"bio":"Information Technology Student at VJTI, Mumbai","twitter_username":"SAGARMUDE1","public_repos":5,"public_gists":0,"followers":14,"following":28,"created_at":"2020-06-14T05:35:27Z","updated_at":"2021-05-01T04:38:45Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":60374,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as sagarmude7 
+[info] 
