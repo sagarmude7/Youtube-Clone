@@ -1,15 +1,17 @@
-import firebase from 'firebase/app'
-import 'firebase/auth'
+import firebase from "firebase/app";
+import "firebase/auth";
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCwFw5H9MUsksL19TcVSHpUSk0HlB4Y7ls",
-    authDomain: "sadtube-6324f.firebaseapp.com",
-    projectId: "sadtube-6324f",
-    storageBucket: "sadtube-6324f.appspot.com",
-    messagingSenderId: "279840275983",
-    appId: "1:279840275983:web:7d7100eb662bebb4942d7a"
-  };
+  apiKey: "AIzaSyBxOcZHZdzKRi6TG6C8zSFIjdYjfsi9K_g",
+  authDomain: "osc-project-sadtube.firebaseapp.com",
+  projectId: "osc-project-sadtube",
+  storageBucket: "osc-project-sadtube.appspot.com",
+  messagingSenderId: "129967381680",
+  appId: "1:129967381680:web:8f981192712f1d1d296f75",
+  measurementId: "G-QJL1S7G521",
+};
 
-  firebase.initializeApp(firebaseConfig)
+firebase.initializeApp(firebaseConfig);
 
-  export default firebase.auth()
+export default firebase.auth();
