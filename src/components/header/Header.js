@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./_header.scss";
+import logo from "./logo.png";
 
 import { FaBars } from "react-icons/fa";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -26,7 +27,7 @@ const Header = ({ handleToggleSidebar }) => {
         onClick={() => handleToggleSidebar()}
       />
 
-      <img src="https://kapwi.ng/c/me3jCoMT" alt="" className="header__logo" />
+      <img src={logo} alt="" className="header__logo" />
 
       <form onSubmit={handleSubmit}>
         <input
