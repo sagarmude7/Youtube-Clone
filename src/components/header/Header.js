@@ -17,7 +17,6 @@ const Header = ({ handleToggleSidebar }) => {
 
     history.push(`/search/${input}`);
   };
-  const { photoURL } = useSelector((state) => state.auth?.user);
 
   return (
     <div className="header">

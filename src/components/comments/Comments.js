@@ -29,7 +29,6 @@ const Comments = ({ videoId, totalComments }) => {
 
     setText("");
   };
-  const { photoURL } = useSelector((state) => state.auth?.user);
 
   return (
     <div className="comments">
