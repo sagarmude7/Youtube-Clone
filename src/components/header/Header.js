@@ -27,11 +27,7 @@ const Header = ({ handleToggleSidebar }) => {
         onClick={() => handleToggleSidebar()}
       />
 
-      <img
-        src="http://pngimg.com/uploads/youtube/youtube_PNG2.png"
-        alt=""
-        className="header__logo"
-      />
+      <img src="https://kapwi.ng/c/me3jCoMT" alt="" className="header__logo" />
 
       <form onSubmit={handleSubmit}>
         <input
@@ -48,7 +44,10 @@ const Header = ({ handleToggleSidebar }) => {
       <dic className="header__icons">
         <MdNotifications size={28} />
         <MdApps size={28} />
-        <img src={photoURL} alt="avatar" />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnW9VFyGWljZ9QWevI6V1lLOsLwTJInbO6sg&usqp=CAU"
+          alt="avatar"
+        />
       </dic>
     </div>
   );
