@@ -8,7 +8,6 @@ const firebaseConfig = {
   storageBucket: "osc-project-sadtube.appspot.com",
   messagingSenderId: "129967381680",
   appId: "1:129967381680:web:8f981192712f1d1d296f75",
-  measurementId: "G-QJL1S7G521"
 };
 
 firebase.initializeApp(firebaseConfig);
