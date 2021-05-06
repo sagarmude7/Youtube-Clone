@@ -2,7 +2,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBxOcZHZdzKRi6TG6C8zSFIjdYjfsi9K_g",
+  apiKey: "AIzaSyDVSflRM4mfVtI36LuW8wBNH_CaFbk5hDU",
   authDomain: "osc-project-sadtube.firebaseapp.com",
   projectId: "osc-project-sadtube",
   storageBucket: "osc-project-sadtube.appspot.com",
