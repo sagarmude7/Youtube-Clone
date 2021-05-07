@@ -6,7 +6,7 @@ This project is made for the final submission of the OSC Project.
 We have used React, Redux, and Firebase along with some SCSS for this entire YouTube-Clone project. 
 
 ## API Used
-YouTube Data API was used for fetching the data from Youtube and also from the user accounts.
+[YouTube Data API](https://developers.google.com/youtube/v3/docs) was used for fetching the data from Youtube and also from the user accounts.
 
 ## App Design
 The YouTube-Clone app has a design similar to the YouTube website. 
